@@ -78,13 +78,13 @@ export default function Footer({ onOpenResumeModal }) {
                 </a>
               </li>
               <li>
-                <a href="#enterprise-systems" className="hover:text-brand-400 transition-colors">
-                  Enterprise & HubSpot Systems
+                <a href="#projects" className="hover:text-brand-400 transition-colors">
+                  Featured Projects
                 </a>
               </li>
               <li>
-                <a href="#projects" className="hover:text-brand-400 transition-colors">
-                  Side Projects & Apps
+                <a href="#client-work" className="hover:text-brand-400 transition-colors">
+                  Other Projects
                 </a>
               </li>
               <li>

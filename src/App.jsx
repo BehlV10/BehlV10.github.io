@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import FlagshipProjectsSection from './components/FlagshipProjectsSection';
-import EnterpriseProjectsSection from './components/EnterpriseProjectsSection';
 import ResumeSection from './components/ResumeSection';
+import FlagshipProjectsSection from './components/FlagshipProjectsSection';
 import ClientProjectsSection from './components/ClientProjectsSection';
 import Footer from './components/Footer';
 import ResumeModal from './components/ResumeModal';
@@ -24,13 +23,10 @@ export default function App() {
         {/* Full Executive Resume View */}
         <ResumeSection onPrintResume={() => setResumeModalOpen(true)} />
 
-        {/* Enterprise & Distributed Systems (HubSpot, Pegasystems, Oracle) */}
-        <EnterpriseProjectsSection />
-
-        {/* Flagship & Side Projects (BoroHop, Housing Aggregator, Tight Pants Comedy, Wicked Boston, NYC Events, Dracula's Masquerade) */}
+        {/* Featured Projects (BoroHop, Housing Aggregator, Tight Pants Comedy, Wicked Boston, NYC Events, Dracula's Masquerade) */}
         <FlagshipProjectsSection />
 
-        {/* Client Web Showcases & Tools */}
+        {/* Other Projects & Client Showcases */}
         <ClientProjectsSection />
       </main>
 

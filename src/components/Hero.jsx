@@ -131,17 +131,10 @@ export default function Hero({ onOpenResumeModal }) {
             </a>
 
             <a
-              href="#enterprise-systems"
+              href="#projects"
               className="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold text-base border border-slate-700/80 transition-all hover:-translate-y-0.5 flex items-center gap-2.5 shadow-sm"
             >
-              <span>HubSpot Enterprise Systems</span>
-            </a>
-
-            <a
-              href="#projects"
-              className="px-5 py-3.5 rounded-xl text-slate-300 hover:text-white text-base font-medium transition-colors flex items-center gap-2"
-            >
-              <span>Explore Projects & Apps</span>
+              <span>Explore Projects</span>
               <span className="text-brand-400">→</span>
             </a>
           </div>

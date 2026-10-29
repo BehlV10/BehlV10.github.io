@@ -23,10 +23,10 @@ export default function ClientProjectsSection() {
         <div className="max-w-3xl mb-12">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-800 text-slate-300 text-xs font-semibold uppercase tracking-wider mb-3">
             <Store className="w-3.5 h-3.5" />
-            <span>Web Portfolio & Client Showcases</span>
+            <span>Other Projects</span>
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">
-            Client Web Experiences & Custom Tools
+            Client Web Applications & Custom Tools
           </h2>
           <p className="mt-4 text-base text-slate-300">
             High-converting digital storefronts, interactive order calculators, and automated data tools built for local Boston & NYC businesses.

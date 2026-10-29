@@ -16,10 +16,9 @@ export default function Navbar({ onOpenResumeModal }) {
   }, []);
 
   const navLinks = [
-    { name: 'Executive Resume', href: '#resume' },
-    { name: 'Enterprise Systems', href: '#enterprise-systems' },
-    { name: 'Projects & Apps', href: '#projects' },
-    { name: 'Client Work', href: '#client-work' },
+    { name: 'Resume', href: '#resume' },
+    { name: 'Featured Projects', href: '#projects' },
+    { name: 'Other Projects', href: '#client-work' },
     { name: 'Contact', href: '#contact' },
   ];
 
