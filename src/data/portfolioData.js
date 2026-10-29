@@ -44,7 +44,7 @@ export const flagshipProjects = [
   {
     id: "boston-housing-aggregator",
     title: "Boston Housing Aggregator",
-    badge: "Live Product",
+    badge: "Housing Aggregator",
     tagline: "Multi-Source Rental Housing Aggregator with Automated Broker Fee Classification",
     liveUrl: "https://behlv10.github.io/boston-housing-aggregator/",
     githubUrl: "https://github.com/BehlV10/boston-housing-aggregator",
@@ -82,7 +82,7 @@ export const flagshipProjects = [
   {
     id: "wicked-boston-events",
     title: "Wicked Boston Events",
-    badge: "Live Web App",
+    badge: "Event Discovery",
     tagline: "Dynamic Nightlife & Concert Discovery Platform for Greater Boston",
     liveUrl: "https://www.wickedbostonevents.com/",
     fallbackUrl: "https://behlv10.github.io/boston_events/",
@@ -95,25 +95,25 @@ export const flagshipProjects = [
       "Automated multi-threaded scraping pipeline indexing 160+ Boston concert halls, indie clubs, and community hubs",
       "Zero-latency static builds rendering thousands of upcoming events with sub-millisecond client filtering",
       "Calendar integration (.ics / Google Calendar) enabling 1-tap export to mobile calendars",
-      "Automated CI/CD workflows continuously synchronizing live venue websites and ticketing feeds"
+      "Automated CI/CD workflows continuously synchronizing venue websites and ticketing feeds"
     ],
     tech: ["Python", "Web Scraping", "HTML5 / CSS3", "Dynamic State Management", "Google Calendar Sync", "GitHub Actions"]
   },
   {
     id: "nyc-events",
-    title: "NYC Events Live Aggregator",
-    badge: "Live Web App",
+    title: "NYC Events Aggregator",
+    badge: "Event Discovery",
     tagline: "5-Borough Event Discovery Platform Scraping 500+ NYC Venues",
     liveUrl: "https://behlv10.github.io/nyc_events/",
     githubUrl: "https://github.com/BehlV10/nyc_events",
     category: "Full Stack & Scrapers",
     overview:
-      "A real-time, ultra-fast 5-borough calendar aggregating concerts, nightlife, theater, and comedy across 500+ venues. Features an interactive dark map and live secondary ticket price comparisons.",
+      "A real-time, ultra-fast 5-borough calendar aggregating concerts, nightlife, theater, and comedy across 500+ venues. Features an interactive dark map and secondary ticket price comparisons.",
     architecture: [
       "Continuous ingestion engine scraping 500+ venues and community calendars across Manhattan, Brooklyn, Queens, Bronx, and Staten Island",
       "Interactive OpenStreetMap / Leaflet dark theme map with jump navigation to individual venue schedules",
       "Real-time 2-hour epoch cutoff filter ensuring users only browse active and upcoming happenings",
-      "Live commercial ticket price comparison engine comparing StubHub and Gametime listings"
+      "Commercial ticket price comparison engine comparing StubHub and Gametime listings"
     ],
     tech: ["Python Scrapers", "Leaflet / GeoJSON", "Ticket Arbitrage (StubHub & Gametime)", "GitHub Actions CI/CD", "REST APIs"]
   },
@@ -254,7 +254,7 @@ export const clientAndToolProjects = [
     githubUrl: "https://github.com/BehlV10/takahachi-bakery",
     image: "./images/takahachi-bakery.jpg",
     description:
-      "A modern digital experience for Takahachi Bakery in Tribeca, Manhattan. Features an interactive celebration cake pre-order builder with live serving/price calculator, custom chocolate message piping, and full café menu.",
+      "A modern digital experience for Takahachi Bakery in Tribeca, Manhattan. Features an interactive celebration cake pre-order builder with real-time serving/price calculator, custom chocolate message piping, and full café menu.",
     tech: ["React 18", "Vite", "Tailwind CSS", "Interactive Pre-Order Builder", "Tribeca NYC"]
   },
   {

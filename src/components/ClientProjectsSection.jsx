@@ -67,7 +67,7 @@ export default function ClientProjectsSection() {
                         target="_blank"
                         rel="noopener noreferrer"
                         className="p-1.5 rounded-lg bg-brand-600/80 hover:bg-brand-500 text-white"
-                        title="Live Site"
+                        title="View Project"
                       >
                         <ExternalLink className="w-3.5 h-3.5" />
                       </a>

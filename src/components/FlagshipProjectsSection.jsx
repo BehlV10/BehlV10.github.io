@@ -47,14 +47,14 @@ export default function FlagshipProjectsSection() {
               <span>Flagship Independent Projects</span>
             </div>
             <h2 className="text-3xl sm:text-5xl font-extrabold text-white tracking-tight">
-              Production Web Apps & Real-Time Aggregators
+              Web Applications & Real-Time Aggregators
             </h2>
             <p className="mt-4 text-base sm:text-lg text-slate-300">
-              Live web platforms, automated web scraping pipelines, and mobile-friendly consumer tools built with zero-latency architectures and zero-tracking privacy.
+              Automated web scraping pipelines, event discovery tools, and responsive consumer applications built with zero-tracking privacy.
             </p>
           </div>
           <div className="hidden lg:block text-right">
-            <span className="text-xs text-slate-400 font-mono">6 Live Applications Featured</span>
+            <span className="text-xs text-slate-400 font-mono">6 Featured Projects</span>
           </div>
         </div>
 
@@ -100,7 +100,7 @@ export default function FlagshipProjectsSection() {
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-brand-600/90 hover:bg-brand-500 text-white text-xs font-semibold shadow-sm transition-all group-hover:scale-105"
                       >
-                        <span>Live App</span>
+                        <span>View App</span>
                         <ArrowUpRight className="w-3.5 h-3.5" />
                       </a>
                     )}
