@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Heart, Copy, Check, ArrowUp } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { personalInfo } from '../data/portfolioData';

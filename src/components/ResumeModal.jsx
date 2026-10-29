@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react';
 import { X, Printer, Download, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from './Icons';
 import { 

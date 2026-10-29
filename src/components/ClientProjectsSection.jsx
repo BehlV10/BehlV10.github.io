@@ -1,3 +1,4 @@
+import React from 'react';
 import { ExternalLink, Sparkles, Store, Cake, Scissors, Utensils, Search } from 'lucide-react';
 import { GithubIcon } from './Icons';
 import { clientAndToolProjects } from '../data/portfolioData';
