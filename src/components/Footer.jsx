@@ -73,8 +73,8 @@ export default function Footer({ onOpenResumeModal }) {
             </h4>
             <ul className="space-y-2 text-sm text-slate-400">
               <li>
-                <a href="#flagship-projects" className="hover:text-brand-400 transition-colors">
-                  Flagship Web Apps
+                <a href="#resume" className="hover:text-brand-400 transition-colors">
+                  Executive Resume
                 </a>
               </li>
               <li>
@@ -83,8 +83,8 @@ export default function Footer({ onOpenResumeModal }) {
                 </a>
               </li>
               <li>
-                <a href="#resume" className="hover:text-brand-400 transition-colors">
-                  Resume & Experience
+                <a href="#projects" className="hover:text-brand-400 transition-colors">
+                  Side Projects & Apps
                 </a>
               </li>
               <li>
@@ -109,9 +109,12 @@ export default function Footer({ onOpenResumeModal }) {
               Get In Touch
             </h4>
             <div className="space-y-3 text-sm text-slate-400">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-brand-400 flex-shrink-0" />
-                <span>{personalInfo.location}</span>
+              <div className="flex items-start gap-2">
+                <MapPin className="w-4 h-4 text-brand-400 flex-shrink-0 mt-0.5" />
+                <div>
+                  <span>Cambridge, MA</span>
+                  <p className="text-xs text-emerald-400 font-medium">Open to Relocation: New York, NY</p>
+                </div>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-brand-400 flex-shrink-0" />

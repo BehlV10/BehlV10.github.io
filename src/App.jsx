@@ -21,14 +21,14 @@ export default function App() {
         {/* Hero Section */}
         <Hero onOpenResumeModal={() => setResumeModalOpen(true)} />
 
-        {/* Flagship Projects (BoroHop, Housing Aggregator, Tight Pants Comedy, Wicked Boston, NYC Events, Dracula's Masquerade) */}
-        <FlagshipProjectsSection />
+        {/* Full Executive Resume View */}
+        <ResumeSection onPrintResume={() => setResumeModalOpen(true)} />
 
         {/* Enterprise & Distributed Systems (HubSpot, Pegasystems, Oracle) */}
         <EnterpriseProjectsSection />
 
-        {/* Full Executive Resume View */}
-        <ResumeSection onPrintResume={() => setResumeModalOpen(true)} />
+        {/* Flagship & Side Projects (BoroHop, Housing Aggregator, Tight Pants Comedy, Wicked Boston, NYC Events, Dracula's Masquerade) */}
+        <FlagshipProjectsSection />
 
         {/* Client Web Showcases & Tools */}
         <ClientProjectsSection />

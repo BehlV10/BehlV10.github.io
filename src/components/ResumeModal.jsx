@@ -65,7 +65,7 @@ export default function ResumeModal({ isOpen, onClose }) {
               {personalInfo.name}
             </h1>
             <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1 mt-2 text-xs text-slate-300 font-mono">
-              <span>{personalInfo.location}</span>
+              <span>Cambridge, MA (Open to Relocation: New York, NY)</span>
               <span>•</span>
               <span>{personalInfo.phone}</span>
               <span>•</span>

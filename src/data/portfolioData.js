@@ -1,8 +1,10 @@
 export const personalInfo = {
   name: "Varun Behl",
-  title: "Senior Backend / Full Stack Engineer",
-  tagline: "Tech Lead with 10+ years architecting high-throughput distributed systems, event-driven microservices, developer tooling, and modern full-stack web applications.",
+  title: "Tech Lead & Senior Software Engineer",
+  tagline: "Tech Lead and Senior Software Engineer with 10+ years designing high-throughput distributed systems, developer tooling, RESTful services and RPCs for customers, and observability infrastructure across AWS, Kafka, and Java/Python ecosystems.",
   location: "Cambridge, MA",
+  relocation: "Open to Relocation to New York, NY",
+  locationFull: "Cambridge, MA • Open to Relocation: New York, NY",
   phone: "(347) 968-2643",
   email: "BehlV10@gmail.com",
   linkedin: "https://linkedin.com/in/behlv10",
@@ -10,7 +12,7 @@ export const personalInfo = {
   github: "https://github.com/BehlV10",
   githubDisplay: "github.com/BehlV10",
   summary:
-    "Senior Backend / Full Stack Engineer with 10+ years of experience designing high-throughput distributed systems, developer tooling, RESTful services and RPCs for customers, and observability infrastructure across AWS, Kafka, and Java/Python ecosystems. Proven track record leading engineering teams at HubSpot to decompose monolithic architectures into decoupled microservices, implementing multi-entity catalog schemas, building asynchronous listing publishing engines, and integrating production LLM workflows.",
+    "Senior Backend / Full Stack Engineer with 10+ years of experience designing high-throughput distributed systems, developer tooling, RESTful services and RPCs for customers, and observability infrastructure across AWS, Kafka, and Java/Python ecosystems.",
   stats: [
     { label: "Engineering Experience", value: "10+ Yrs" },
     { label: "Recent Tech Lead Role", value: "HubSpot" },

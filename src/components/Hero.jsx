@@ -38,16 +38,15 @@ export default function Hero({ onOpenResumeModal }) {
             <span className="flex h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
             <span className="font-semibold text-emerald-300">HubSpot Tech Lead (2022–2026)</span>
             <span className="text-slate-500">•</span>
-            <span className="text-slate-400">10+ Years Distributed Systems</span>
+            <span className="text-slate-400">10+ Years Systems Engineering</span>
           </div>
 
           {/* Headline */}
           <h1 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-white mb-6 leading-[1.1]">
-            Engineering High-Throughput{' '}
+            Tech Lead and{' '}
             <span className="bg-gradient-to-r from-brand-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
-              Distributed Systems
-            </span>{' '}
-            & Production Web Apps.
+              Senior Software Engineer
+            </span>
           </h1>
 
           {/* Subtitle / summary */}
@@ -57,10 +56,12 @@ export default function Hero({ onOpenResumeModal }) {
 
           {/* Contact Pills & Direct Links */}
           <div className="flex flex-wrap items-center gap-3 mb-10 text-sm">
-            {/* Location */}
+            {/* Location & Relocation */}
             <div className="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-900/80 border border-slate-800 text-slate-300">
               <MapPin className="w-4 h-4 text-brand-400" />
-              <span>{personalInfo.location}</span>
+              <span>Cambridge, MA</span>
+              <span className="text-slate-500">•</span>
+              <span className="text-emerald-400 font-medium">Open to Relocation: New York, NY</span>
             </div>
 
             {/* Email with copy */}
@@ -121,26 +122,26 @@ export default function Hero({ onOpenResumeModal }) {
           {/* Action CTAs */}
           <div className="flex flex-wrap items-center gap-4 pt-2">
             <a
-              href="#flagship-projects"
+              href="#resume"
               className="px-6 py-3.5 rounded-xl bg-gradient-to-r from-brand-600 to-indigo-600 hover:from-brand-500 hover:to-indigo-500 text-white font-semibold text-base shadow-lg shadow-brand-600/25 transition-all hover:-translate-y-0.5 flex items-center gap-2.5"
             >
-              <span>Explore Main Projects</span>
+              <FileText className="w-4 h-4" />
+              <span>View Executive Resume</span>
               <ArrowDown className="w-4 h-4" />
             </a>
 
-            <button
-              onClick={onOpenResumeModal}
-              className="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold text-base border border-slate-700/80 transition-all hover:-translate-y-0.5 flex items-center gap-2.5 shadow-sm"
-            >
-              <FileText className="w-4 h-4 text-brand-400" />
-              <span>View Executive Resume</span>
-            </button>
-
             <a
               href="#enterprise-systems"
+              className="px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold text-base border border-slate-700/80 transition-all hover:-translate-y-0.5 flex items-center gap-2.5 shadow-sm"
+            >
+              <span>HubSpot Enterprise Systems</span>
+            </a>
+
+            <a
+              href="#projects"
               className="px-5 py-3.5 rounded-xl text-slate-300 hover:text-white text-base font-medium transition-colors flex items-center gap-2"
             >
-              <span>HubSpot Microservices & Architecture</span>
+              <span>Explore Projects & Apps</span>
               <span className="text-brand-400">→</span>
             </a>
           </div>

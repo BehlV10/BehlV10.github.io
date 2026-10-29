@@ -67,8 +67,8 @@ export default function ResumeSection({ onPrintResume }) {
 
             <div className="flex flex-col sm:items-end text-xs text-slate-300 space-y-1.5 flex-shrink-0">
               <span className="flex items-center gap-1.5">
-                <MapPin className="w-3.5 h-3.5 text-slate-400" />
-                {personalInfo.location}
+                <MapPin className="w-3.5 h-3.5 text-brand-400" />
+                <span>Cambridge, MA <span className="text-emerald-400 font-medium">(Open to Relocation: New York, NY)</span></span>
               </span>
               <span className="flex items-center gap-1.5">
                 <Phone className="w-3.5 h-3.5 text-slate-400" />

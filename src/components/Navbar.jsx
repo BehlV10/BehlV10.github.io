@@ -16,9 +16,9 @@ export default function Navbar({ onOpenResumeModal }) {
   }, []);
 
   const navLinks = [
-    { name: 'Featured Apps', href: '#flagship-projects' },
-    { name: 'Enterprise & Systems', href: '#enterprise-systems' },
-    { name: 'Resume & Experience', href: '#resume' },
+    { name: 'Executive Resume', href: '#resume' },
+    { name: 'Enterprise Systems', href: '#enterprise-systems' },
+    { name: 'Projects & Apps', href: '#projects' },
     { name: 'Client Work', href: '#client-work' },
     { name: 'Contact', href: '#contact' },
   ];
@@ -45,7 +45,7 @@ export default function Navbar({ onOpenResumeModal }) {
                   Tech Lead
                 </span>
               </div>
-              <p className="text-xs text-slate-400 hidden sm:block">Senior Backend & Full Stack Engineer</p>
+              <p className="text-xs text-slate-400 hidden sm:block">Tech Lead & Senior Software Engineer</p>
             </div>
           </a>
 

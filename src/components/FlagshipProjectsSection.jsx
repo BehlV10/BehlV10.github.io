@@ -37,8 +37,8 @@ const getProjectIcon = (id) => {
 
 export default function FlagshipProjectsSection() {
   return (
-    <section id="flagship-projects" className="py-20 md:py-28 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="projects" className="py-20 md:py-28 relative scroll-mt-16">
+      <div id="flagship-projects" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
           <div className="max-w-3xl">
